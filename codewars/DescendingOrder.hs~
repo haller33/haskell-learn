@@ -1,0 +1,8 @@
+
+module DescendingOrder where
+
+descendingOrder :: Integer -> Integer
+descendingOrder = error "todo: descendingOrder"
+
+solve :: String -> String
+solve ys = reverse ys

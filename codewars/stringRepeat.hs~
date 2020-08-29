@@ -1,0 +1,6 @@
+
+
+module StringRepeat where
+
+repeatStr :: Int -> String -> String
+repeatStr n str = ""

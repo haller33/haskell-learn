@@ -1,0 +1,6 @@
+
+module MaxDigitSum where
+
+solve :: Int -> Int
+solve = error "y no codez?"
+

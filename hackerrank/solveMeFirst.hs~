@@ -1,0 +1,13 @@
+
+module Main where
+
+
+readIntString :: String -> Int
+readIntString x = read x :: Int
+
+solve :: String -> String
+solve = unwords . checkAliceAndBobScores 
+
+
+main :: IO()
+main = interact solve

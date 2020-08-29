@@ -1,0 +1,12 @@
+module FixString where 
+
+import Data.Char 
+
+arrayToString :: [String] -> String
+arrayToString = foldMap show 
+
+-- (\x -> read x :: Integer) . foldMap show . reverse . sort 
+--                    $ map (\x -> read [x] :: Integer) $ show s
+
+solve :: String -> String
+solve = undefined

@@ -1,0 +1,22 @@
+
+module Main where
+
+
+percorListInt :: Int -> [Int] -> [Int] -> [Int]
+percorListInt x acc [] = acc
+percorListInt x acc xs | x == head xs = percorListInt x ((x + head acc):(tail acc)) (tail xs)
+                       | otherwise = percorListInt (head xs) acc (tail xs)
+
+
+solve :: [Int] -> [Int]
+solve x = reverse $ percorListInt (head x) [] (tail x)
+
+
+sumConsecutives :: [Int] -> [Int]
+sumConsecutives = solve
+
+
+
+
+
+
