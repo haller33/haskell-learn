@@ -1,7 +1,0 @@
-
-module Precedence where
-
-
-let
-  x = 5
-  y = 4

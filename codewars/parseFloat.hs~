@@ -1,6 +1,0 @@
-module ParseFloat where
-
-import Data.Maybe
-
-parseFloat :: String -> Maybe Float
-parseFloat s = Nothing
