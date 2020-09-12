@@ -1,0 +1,12 @@
+
+module Main where
+
+readIntString :: String -> Int
+readIntString x = read x :: Int
+
+solve :: String -> String
+solve = undefined
+
+main :: IO ()
+main = interact solve
+

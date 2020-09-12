@@ -1,17 +1,10 @@
-
 import Data.List(nub)
 
+countat :: Int -> [Int] -> Int
+countat num xs | xs == [] = 1
+               | num == head xs = 1 + countat num (tail xs)
+               | otherwise = 1
 
-
-percorListCount :: Int -> Int -> [Int] -> [Int]
-percorListCount cont frtE [] = [cont]
-percorListCount cont frtE [x] = if x == frtE then [cont+1] else [cont,1]
-percorListCount cont frtE (x:xs) | frtE == x = percorListCount (cont+1) frtE xs
-                                 | otherwise = 1:percorListCount cont x xs
-
-
-numberElementArray :: [Int] -> [Int]
-numberElementArray (x:xs) = percorListCount 1 x xs
 
 
 numberElementsInList :: Int -> [Int] -> Int
@@ -23,4 +16,6 @@ solve xs = map (\y -> y * numberElementsInList y xs) $ nub xs
 
 sumConsecutives :: [Int] -> [Int]
 sumConsecutives = solve
+
+
 
