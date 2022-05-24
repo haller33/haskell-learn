@@ -1,0 +1,7 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Desafio 4
+Parabéns por chegar até aqui, esse desafio está em um nível diferente dos demais, então não se sinta frustrado se não entender de primeira, a flag não é a mensagem de sucesso, mas o argumento para printá-la. Boa sorte
+-----BEGIN PGP SIGNATURE-----
+-----END PGP SIGNATURE-----
