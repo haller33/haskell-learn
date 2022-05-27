@@ -1,0 +1,2 @@
+
+* Codes from FutureLearn Functional Haskell Course with the Glasgow University

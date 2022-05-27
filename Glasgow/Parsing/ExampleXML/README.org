@@ -1,0 +1,10 @@
+
+* Parser combinator for XML
+
+** Source of Code Example
+
+https://www.futurelearn.com/courses/functional-programming-haskell/8/steps/881462
+
+** github Source
+
+https://github.com/wimvanderbauwhede/HaskellMOOC/tree/master/ParsecTutorial
