@@ -1,7 +1,7 @@
-**/*
-**/.*
+*
 
-# But not these files
 !.gitignore
 !**/*.hs
+
+!*/
 
